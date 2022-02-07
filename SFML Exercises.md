@@ -1,13 +1,11 @@
-# SFML
-Solving few tasks related with SFML in C++
+SFML - Simple and Fast Multimedia Library
+
+Exercises:
 
 Part 1
 Write a program to read in numerical data from a text file.
 The data must be formatted as below.
 number of datapoints, [integers separated by a comma]
-
-Example
-3, 9,8,5
 
 The 3 signifies that there will 3 integers to follow
 There is an example of how to read from a text file at the end of the doc
@@ -34,5 +32,3 @@ Example:
 Part 3
 
 Use SFML (https://www.sfml-dev.org/) to draw a bar chart and line chart.
-There is sample SFML code in this folder and a SFML video to help you add the libraries
-to a blank project.
