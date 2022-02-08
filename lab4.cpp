@@ -1,4 +1,4 @@
-//Student Name:		Rasul Iskandarov
+//Full Name:			Rasul Iskandarov
 //Date:				23/12/2021
 
 #ifdef _DEBUG 
