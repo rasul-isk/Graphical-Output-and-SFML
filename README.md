@@ -1,5 +1,4 @@
-# SFML-tasks-solution
-
+# Graphical output and SFML exercises
 Tasks:
 
 1) Write a program to read in numerical data from a text file.
