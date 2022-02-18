@@ -1,4 +1,5 @@
 # Graphical Output and SFML exercises
+
 Tasks:
 
 1) Write a program to read in numerical data from a text file.
@@ -21,3 +22,5 @@ Example
 7,3,5,3,4,2,1,4 <br/>
 
 3) Use SFML (https://www.sfml-dev.org/) to draw a bar chart and line chart.
+
+# Be aware, for using this code (which has SFML libraries) you have to set up project properties properly. You can check how to do it in internet.
