@@ -260,12 +260,7 @@ void Part_3_1(std::string data)
 		}
 	}
 
-	verticalNumbers[0].setString("0 M");
-	verticalNumbers[1].setString("20 M");
-	verticalNumbers[2].setString("40 M");
-	verticalNumbers[3].setString("60 M");
-	verticalNumbers[4].setString("80 M");
-	verticalNumbers[5].setString("100 M");
+
 	Header.setString("Covid-19 Cases Worldwide");
 
 
@@ -287,19 +282,19 @@ void Part_3_1(std::string data)
 	bar4.setPosition(500, (500 - height[3])); 
 	bar5.setPosition(600, (500 - height[4])); 
 	bar6.setPosition(700, (500 - height[5]));
-	Names[0].setPosition(200 - 5, (550 - height[0]));
-	Names[1].setPosition(300 - 5, (550 - height[0]));
-	Names[2].setPosition(400 - 5, (550 - height[0]));
-	Names[3].setPosition(500 - 5, (550 - height[0]));
-	Names[4].setPosition(600 - 5, (550 - height[0]));
-	Names[5].setPosition(700 - 5, (550 - height[0]));
+	
 	xLine.setPosition(150, 501);
 	xLine.rotate(270);
 	yLine.setPosition(150, 501);
 	yLine.rotate(180);
+	
 	for (int index = 0; index < numOfElem; index++)
 	{
+		string text = index*20 + " M";
+		int position = index*100 + 200 - 5;
 		verticalNumbers[index].setPosition(100, 501-67*index-10); 
+		verticalNumbers[index].setString(text);
+		Names[index].setPosition(position, (550 - height[0]));
 	}
 
 
